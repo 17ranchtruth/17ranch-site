@@ -2,53 +2,41 @@
 body {
     font-family: 'Georgia', serif;
     background-color: #fdf6e3;
-    color: #4b2e1e;
+    color: #4b2e00;
     margin: 0;
-    padding: 20px;
-}
-header {
-    text-align: center;
-    border-bottom: 2px solid #d4af37;
-    margin-bottom: 20px;
-}
-h1 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
-}
-ul {
-    list-style: none;
     padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
 }
-ul li {
-    margin: 0.5em 0;
+
+header {
+    background-color: #8b4513;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    border-bottom: 4px solid #5a2d0c;
 }
-a {
-    color: #1d5c63;
-    text-decoration: none;
-    font-weight: bold;
+
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
 }
-a:hover {
-    text-decoration: underline;
-}
-.alert {
-    background-color: #fff3cd;
-    border: 1px solid #ffeeba;
-    padding: 15px;
-    margin-top: 20px;
-    font-weight: bold;
-}
-.evidence {
-    margin-top: 30px;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-.gallery img {
-    max-width: 300px;
+
+.chat-images img {
+    max-width: 100%;
     height: auto;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 4px solid #8b4513;
+    border-radius: 8px;
+    background-color: #fff8e1;
+    padding: 10px;
+}
+
+.note {
+    font-size: 1.1em;
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 6px solid #856404;
+    margin: 20px 0;
 }
