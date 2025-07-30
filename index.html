@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>The 17 Ranch | Full Truth</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>The 17 Ranch | Full Truth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Materialize CSS from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+  <!-- Google Fonts for western-style heading -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Roboto Slab', serif;
+      background-color: #fef9f5;
+    }
+    header {
+      background-color: #6d4c41;
+      padding: 30px;
+      text-align: center;
+      color: white;
+      font-family: 'Rubik Dirt', cursive;
+      font-size: 3rem;
+    }
+    .warning {
+      background-color: #fff3e0;
+      border-left: 6px solid #ff6f00;
+      padding: 20px;
+      margin: 30px 0;
+      font-weight: bold;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-    <header>The 17 Ranch</header>
-    <div class="container">
-        <section class="warning">
-            <strong>⚠️ Community Warning:</strong> Lisa, the owner of The 17 Ranch, has consistently threatened neighbors when they do not comply with her demands. This site documents real communications from Lisa to nearby residents.
-        </section>
-        <section class="email-box">
-            <h2>Known Emails</h2>
-            <ul>
-                <li>lisaranchqueen@gmail.com</li>
-                <li>lisa@17ranch.com</li>
-                <li>truth@17ranchtruth.com</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Screenshot Evidence (Chronological Order)</h2>
-            <div class="gallery">
-                <img src="images/pic1.jpg" alt="pic1">
-                <img src="images/pic2.jpg" alt="pic2">
-                <img src="images/pic3.jpg" alt="pic3">
-                <img src="images/pic4.jpg" alt="pic4">
-                <img src="images/pic5.jpg" alt="pic5">
-                <img src="images/pic6.jpg" alt="pic6">
-                <img src="images/pic7.jpg" alt="pic7">
-                <img src="images/pic8.jpg" alt="pic8">
-                <img src="images/pic9.jpg" alt="pic9">
-                <img src="images/pic10.jpg" alt="pic10">
-                <img src="images/pic11.jpg" alt="pic11">
-                <img src="images/pic12.jpg" alt="pic12">
-
-            </div>
-        </section>
+  <header>The 17 Ranch</header>
+  <div class="container">
+    <div class="warning">
+      ⚠️ Community Warning: Lisa, the owner of The 17 Ranch, has consistently threatened neighbors when they do not comply with her demands. This site documents real communications from Lisa to nearby residents.
     </div>
-    <footer>&copy; 2025 The 17 Ranch Truth Project</footer>
+
+    <div class="row gallery">
+
+      <div class="col s12 m6 l4">
+        <img src="images/pic1.jpg" alt="pic1" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic2.jpg" alt="pic2" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic3.jpg" alt="pic3" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic4.jpg" alt="pic4" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic5.jpg" alt="pic5" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic6.jpg" alt="pic6" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic7.jpg" alt="pic7" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic8.jpg" alt="pic8" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic9.jpg" alt="pic9" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic10.jpg" alt="pic10" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic11.jpg" alt="pic11" class="responsive-img z-depth-1">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="images/pic12.jpg" alt="pic12" class="responsive-img z-depth-1">
+      </div>
+    
+    </div>
+  </div>
+  <footer>&copy; 2025 The 17 Ranch Truth Project</footer>
 </body>
 </html>
